@@ -1,0 +1,12 @@
+1. The pointer (int* value) is passed by value, as it points directly to the value in the storage.
+
+   The reference (int value) is passed by reference, a direct copy of the variable referencing the value without
+   allowing you to change its data.
+
+2. The alpha of the program will consistantly be 20 with no change. Due to the variable being passed as a reference
+   in the function, the variable is not able to be changed directly, meaning that the value of alpha does not change.
+
+3. Beta will become 30 after being processed. Due to the function passing the variable as a value or using a pointer
+   to direct you to the value in the memory, anything you change in the variable will change for the variable
+   anywhere else.
+   
